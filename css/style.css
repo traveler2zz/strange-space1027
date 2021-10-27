@@ -1,0 +1,21 @@
+html{
+    box-sizing:border-box;
+    font-size: 10px;
+  }
+
+  *,*::before,*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*font-size: 0px;                解決 body 上方莫名空白字元 */
+}
+
+.container{
+    width: auto;
+    min-width: 1260px;
+    height: 940px;
+    background-color:rgb(123, 177, 62);
+}
